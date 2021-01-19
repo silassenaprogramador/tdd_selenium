@@ -1,0 +1,10 @@
+[18-Jan-2021 15:14:06 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPUnit_Framework_TestCase' not found in /home/silas/projetos/PHP 7/TDD/tests/Feature/novinhoTest.php:6
+Stack trace:
+#0 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/Util/FileLoader.php(65): include_once()
+#1 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/Util/FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#2 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/Framework/TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#3 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/Framework/TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#4 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/TextUI/TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#5 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/TextUI/Command.php(389): PHPUnit\TextUI\TestSuiteMapper->map()
+#6 /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/TextUI/Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#7 /home/si in /home/silas/projetos/PHP 7/TDD/vendor/phpunit/phpunit/src/TextUI/Command.php on line 97

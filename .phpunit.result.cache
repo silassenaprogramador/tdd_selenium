@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":292:{a:2:{s:7:"defects";a:2:{s:7:"Warning";i:6;s:34:"Tests\Feature\StartTest::testStart";i:4;}s:5:"times";a:4:{s:7:"Warning";d:0.002;s:41:"Tests\Feature\NovinhoTest::testlistarUser";d:0.004;s:38:"Tests\Feature\NovinhoTest::testNovinho";d:0.002;s:34:"Tests\Feature\StartTest::testStart";d:27.925;}}}
